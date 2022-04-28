@@ -1,6 +1,6 @@
 # awaken-project
 
-A truly unique project. Awaken is a fully-featured production-ready scheduler. Its unicity lies in the diversity of technologies used to build it. Awaken is a representation of my passion for web development and my craving for knowledge.
+A truly unique project. Awaken is a fully-featured production-ready scheduler. Its unicity lies in the diversity of technologies used to build it. Awaken is a representation of my love for web development.
 
 The awaken project follows a microservices centered achitecture spread out trought multiple repository. 
 

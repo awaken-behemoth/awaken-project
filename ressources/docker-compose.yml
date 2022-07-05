@@ -1,0 +1,13 @@
+
+version: '2'
+services:
+    message-server:
+        container_name: message-server
+        build:
+            context: awaken-user-service
+            dockerfile: Dockerfile
+        image: awaken-user-service:latest
+        ports:
+            - 18888:8888
+        networks:
+            - spring-cloud-network

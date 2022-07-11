@@ -1,0 +1,17 @@
+
+version: '2'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: awaken
+    ports:
+        - 5432:5432
+    networks:
+        - awaken
+
+networks:
+  awaken:
+    name: awaken
